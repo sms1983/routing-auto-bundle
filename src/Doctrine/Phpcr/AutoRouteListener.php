@@ -11,7 +11,7 @@
 
 namespace Symfony\Cmf\Bundle\RoutingAutoBundle\Doctrine\Phpcr;
 
-use Doctrine\Common\Persistence\Event\ManagerEventArgs;
+use Doctrine\Persistence\Event\ManagerEventArgs;
 use Doctrine\ODM\PHPCR\DocumentManager;
 use Symfony\Cmf\Bundle\RoutingAutoBundle\Model\AutoRoute;
 use Symfony\Cmf\Component\RoutingAuto\Mapping\Exception\ClassNotMappedException;
